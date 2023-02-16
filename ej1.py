@@ -21,5 +21,5 @@ print("Data shape: {}".format(boston.data.shape))
 X, y = mglearn.datasets.load_extended_boston() # joblib==1.1.0
 print("X.shape: {}".format(X.shape))
 
-mglearn.plots.plot_knn_classification(n_neighbors=1)
+mglearn.plots.plot_knn_classification(n_neighbors=4) # se usa el forge
 plt.show()
